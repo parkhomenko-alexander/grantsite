@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT Beauty</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="static/css/style.css">
+
+  <script>
+    tailwind.config = {
+      mode: 'jit',
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body class="h-screen bg-gradient-to-r from-indigo-100 to-white overflow-x-hidden">
+  <div class="px-60">
+    <header class="h-32 w-full flex justify-center items-center">
+      <ul class="flex justify-between space-x-16 text-xl text-slate-900">
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          Главная
+        </li>
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          <a href="#process">
+            Технология
+          </a>
+        </li>
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          <a href="#team">
+            О нас
+          </a>
+        </li>
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          <a href="#contacts">
+            Контакты
+          </a>
+        </li>
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          <a href="#fasie">
+            FASIE
+          </a>
+        </li>
+        <li
+          class="cursor-pointer border-b-2 border-transparent hover:border-indigo-600 transition ease-in-out duration-300 tracking-widest">
+          LOGO
+        </li>
+      </ul>
+    </header>
+
+    <main class="mt-24">
+
+      <section  class="flex items-stretch">
+        <div class="w-7/12">
+          <h1 class="uppercase font-semibold text-6xl text-slate-800 tracking-wide leading-tight">подбор и создание
+            персонального тонального крема ПО фото</h1>
+          <div class="mt-4 uppercase font-semibold  text-slate-800 tracking-wide text-xl">
+            <span class="">процесс занимает не более</span>
+            <span class="text-yellow-500">5 минут</span>
+          </div>
+        </div>
+
+        <!-- <img src="static/assets/fashion-portrait-woman.png" alt="" class="w-3/4 h-auto"> -->
+        <img src="static/assets/girl.png" alt="" class="w-5/12 h-auto">
+      </section>
+
+      <section id="" class="flex flex-column mt-36">
+        <div class="flex ">
+          <img src="static/assets/combination-makeup-textures.png" alt="" class="w-4/12 h-auto">
+
+          <div class="flex flex-col justify-between">
+            <h3 class="uppercase h-1/6 font-semibold text-3xl text-slate-800 tracking-wide leading-tight text-center">
+              Основные проблемы, возникающие при подборе тонального средства</h3>
+
+            <ul class="mt-10 ml-10 h-5/6 flex flex-col justify-between">
+              <li class="tracking-widest text-2xl">Зачастую приходится выбирать тональное средство в условиях
+                ненатурального искусственного света</li>
+              <li class="tracking-widest text-2xl">Неправильное определение типа кожи может приводить к быстрому
+                скатыванию средства</li>
+              <li class="tracking-widest text-2xl">Неправильное тестирование тонального крема - за запястье, кожи лица и
+                шеи</li>
+              <li class="tracking-widest text-2xl">Некачественный или не подходящий состав тонального крема</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-36" id="process">
+        <h3 class="uppercase h-1/6 font-semibold text-3xl text-slate-800 tracking-wide leading-tight text-right">
+          Как работает технология подбора и создания тонального средства? И как ей воспользоваться?
+          <span class="">услугами?</span>
+        </h3>
+        <ol class="mt-10 list_for_count">
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Клиент приходит в точку розничных продаж <span class="text-amber-500">IT-Beauty</span>. Консультан
+              делает
+              снимки необходимых для определения цветотипа участков кожи (шея, т-зона, другие участки)</span>
+          </li>
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Полученные изображения загружаются в программное средство, которое с помощью специального алгоритма
+              производит их анализ</span>
+          </li>
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Итогом работы алгорима является вычисленный цвет, который наиболее подходядит вашему цветотипу</span>
+          </li>
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Следущая стадия — это представление полученного оттенка в виде особой формулы, состоящей из образцов
+              тонального средства, используемых для создания крема клиента</span>
+          </li>
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Далее программное средство конфигурирует работу аппаратной установки, которая подготавливает
+              необходимое
+              количество тонального крема каждого из цветов</span>
+          </li>
+          <li class="mb-10 procedure_item flex items-center text-3xl text-slate-800 tracking-widest">
+            <span>Самый подходящий клиенту по цветотипу тональный крем готов</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="mt-36" id="team">
+        <h3 class="uppercase h-1/6 font-semibold text-3xl text-slate-800 tracking-wide leading-tight text-center">
+          Наша команда
+        </h3>
+        <p class="mt-10 text-xl text-slate-800 tracking-widest">
+          Наша команда – это молодые технологические предприниматель, хорошо разбирающиеся во всех задачах, которые
+          ложатся
+          на наши плечи. Экспетриза участников в beauty-сфере и области технологических инноваций, позволяют нам делать
+          уникальный, качественный продукт в различных формах, решающий посведневные проблемы наших пользователей
+        </p>
+        <div class="flex justify-between mt-10 text-xl text-slate-800 tracking-widest">
+          <div>
+            <img src="static/assets/director.png" alt="" class="w-72 h-auto rounded-full">
+            <div class="mt-4 flex flex-col items-center space-y-2">
+              <h4 class="text-pink-500">Директор, buaty-эксперт</h4>
+              <p>Пархоменко Милана</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <img src="static/assets/programmer.png" alt="" class="w-72 h-auto rounded-full">
+            <div class="mt-4 flex flex-col items-center space-y-2">
+              <h4 class="text-pink-500">Разработчик</h4>
+              <p>Пархоменко Александр</p>
+            </div>
+          </div>
+
+          <div>
+            <img src="static/assets/marketolog.png" alt="" class="w-72 h-auto rounded-full">
+            <div class="mt-4 flex flex-col items-center space-y-2">
+              <h4 class="text-pink-500">Меркетолог</h4>
+              <p>Мельникова Эльвира</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-36" id="fasie">
+        <div class="mt-10 text-3xl text-slate-800 tracking-widest">
+          <h3 class="uppercase h-1/6 font-semibold text-3xl text-slate-800 tracking-wide leading-tight text-center">
+            Команда
+            проекта поддержана Фондом содействия инновациям по программе
+            <span class="text-pink-500">
+              "Студенческий стартап"
+            </span>
+          </h3>
+          <a href="https://fasie.ru/" class="">
+            <img src="static/assets/fasie.png" alt="" class="w-full scale-100 hover:scale-105 ease-in duration-200">
+          </a>
+        </div>
+      </section>
+
+      <section class="mt-36" id="contacts">
+        <div class="p-16 bg-white border-2 border-pink-500 rounded-[60px]">
+          <h3 class="uppercase h-1/6 font-semibold text-5xl text-slate-800 tracking-wide leading-tight">
+            остались вопросы?
+          </h3>
+          <p class="mt-4 text-3xl text-slate-800 tracking-widest">Свяжитесь с нами, мы обо всём расскажем</p>
+          <div class="mt-16 text-3xl text-slate-800 tracking-widest  flex flex-col space-y-2">
+            <a href="tel:89638095540" class="flex space-x-4">
+              <img src="static/assets/phone.svg" alt="" >
+              <span class="text-blue-950">89638095540</span>
+            </a>
+
+            <a href="mailto:itbeauty@gmail.com" class="flex space-x-4">
+              <img src="static/assets/mail.svg" alt="">
+              <span class="text-blue-950">itbeauty@gmail.com</span>
+            </a>
+          </div>
+        </div>
+
+
+    </main>
+  </div>
+  <section class="mt-36 border-t-2 border-slate-300 bg-slate-100/50">
+    <footer class="py-6 px-36">
+      <div>
+        <div class="flex  items-center justify-between border-b border-slate-500  tracking-widest">
+          <img class="h-28 cursor-pointer border-b-2 border-transparent tracking-widest" />
+
+          <ul class="flex  items-center space-x-8">
+            <li class="cursor-pointer border-b-2 border-transparent">
+              Главная
+            </li>
+            <li class="cursor-pointer border-b-2 border-transparent">
+              <a href="#process">
+                Технология
+              </a>
+            </li>
+            <li class="cursor-pointer border-b-2 border-transparent">
+              <a href="#team">
+                О нас
+              </a>
+            </li>
+            <li class="cursor-pointer border-b-2 border-transparent">
+              <a href="#contacts">
+                Контакты
+              </a>
+            </li>
+            </li>
+            <li class="cursor-pointer border-b-2 border-transparent">
+              <a href="#fasie">
+                FASIE
+              </a>
+            </li>
+          </ul>
+
+          <div class="cursor-pointer ">
+            <a href="tel:89638095540" class="flex space-x-4">
+              <span>89638095540</span>
+            </a>
+          </div>
+        </div>
+        <div class="flex justify-end font-semibold tracking-widest pt-4">
+          <span>
+            <a href="mailto:itbeauty@gmail.com" class="flex space-x-4 text-slate-500">
+              <span>itbeauty@gmail.com</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <button id="to-top-button" onclick="goToTop()" title="Go To Top"
+      class="hidden fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-pink-600/50 hover:bg-pink-600 text-white text-lg font-semibold transition-colors duration-300">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+      </svg>
+      <span class="sr-only">Go to top</span>
+    </button>
+
+</body>
+<script>
+  let toTopButton = document.getElementById("to-top-button");
+
+  if (toTopButton) {
+    window.onscroll = function () {
+      if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+        toTopButton.classList.remove("hidden");
+      } else {
+        toTopButton.classList.add("hidden");
+      }
+    };
+    window.goToTop = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    };
+  }
+</script>
+
+</html>
